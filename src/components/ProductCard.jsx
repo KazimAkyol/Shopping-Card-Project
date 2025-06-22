@@ -3,7 +3,7 @@ import axios from "axios";
 const ProductCard = ({ ürün, getUrunler }) => {
     const remove = async () => {
         await axios.delete(
-            `https://63f4e5583f99f5855db9e941.mockapi.io/products/${ürün.id}`
+            `https://674dbe56635bad45618c9df8.mockapi.io/products/${ürün.id}`
         );
 
         getUrunler();
@@ -11,7 +11,7 @@ const ProductCard = ({ ürün, getUrunler }) => {
 
     const arttir = async () => {
         await axios.put(
-            `https://63f4e5583f99f5855db9e941.mockapi.io/products/${ürün.id}`,
+            `https://674dbe56635bad45618c9df8.mockapi.io/products/${ürün.id}`,
             { ...ürün, amount: ürün.amount + 1 }
         );
         getUrunler();
@@ -19,7 +19,7 @@ const ProductCard = ({ ürün, getUrunler }) => {
 
     const azalt = async () => {
         await axios.put(
-            `https://63f4e5583f99f5855db9e941.mockapi.io/products/${ürün.id}`,
+            `https://674dbe56635bad45618c9df8.mockapi.io/products/${ürün.id}`,
             { ...ürün, amount: ürün.amount - 1 }
         );
         getUrunler();

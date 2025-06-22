@@ -4,7 +4,7 @@ import axios from "axios";
 import ProductCard from "../components/ProductCard";
 
 const ProductList = () => {
-    const BASE_URL = "https://63f4e5583f99f5855db9e941.mockapi.io/products";
+    const BASE_URL = "https://674dbe56635bad45618c9df8.mockapi.io/products";
 
     const [produkte, setProdukte] = useState([]);
     const [loading, setLoading] = useState(true);

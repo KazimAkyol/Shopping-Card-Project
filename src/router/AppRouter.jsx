@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Main from '../pages/Main'
 import NewProduct from '../pages/NewProduct'
@@ -9,16 +9,16 @@ import UpdateProduct from '../pages/UpdateProduct'
 
 const AppRouter = () => {
     return (
-        <Router>
+        <BrowserRouter>
             <Navbar />
             <Routes>
                 <Route exact path='/' element={<Main />} />
-                <Route path='/newProduct' element={<NewProduct />} />
-                <Route path='/productList' element={<ProductList />} />
+                <Route path='/new-product' element={<NewProduct />} />
+                <Route path='/products' element={<ProductList />} />
                 <Route path='/about' element={<About />} />
             </Routes>
             <UpdateProduct />
-        </Router>
+        </BrowserRouter>
     )
 }
 
