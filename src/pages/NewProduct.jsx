@@ -93,7 +93,8 @@ const NewProduct = () => {
                             type="submit"
                             className="add-to-cart btn btn-success btn-sm cursor-pointer"
                         >
-                            <i className="fa-solid fa-cart-plus me-2"></i>Save To Product
+                            <i className="fa-solid fa-cart-plus me-2"></i>
+                            Save To Product
                         </button>
                     </div>
                 </form>

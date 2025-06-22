@@ -22,7 +22,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <NavLink
                                 style={({ isActive }) => ({
-                                    fontSize: isActive && "50px",
+                                    fontSize: isActive && "25px",
                                 })}
                                 to="/"
                                 className="nav-link "
@@ -33,7 +33,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <NavLink
                                 style={({ isActive }) => ({
-                                    fontSize: isActive && "50px",
+                                    fontSize: isActive && "25px",
                                 })}
                                 className="nav-link "
                                 to="/new-product"
@@ -44,7 +44,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <NavLink
                                 style={({ isActive }) => ({
-                                    fontSize: isActive && "50px",
+                                    fontSize: isActive && "25px",
                                 })}
                                 className="nav-link "
                                 to="/products"
@@ -55,7 +55,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <NavLink
                                 style={({ isActive }) => ({
-                                    fontSize: isActive && "50px",
+                                    fontSize: isActive && "25px",
                                 })}
                                 className="nav-link "
                                 to="/about"

@@ -4,7 +4,7 @@ const Main = () => {
     return (
         <main className='main'>
             <div>
-                <h1>Welcome to Shopping Cart Application</h1>
+                <h1>Welcome to Shopping Card Application</h1>
                 <div className='main-buttons'>
                     <button className='btn btn-outline-primary px-3'>
                         Add New Product
