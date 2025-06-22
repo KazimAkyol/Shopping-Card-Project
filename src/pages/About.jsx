@@ -8,8 +8,8 @@ const About = () => {
                     <div className="card p-3 py-4">
                         <div className="text-center">
                             <img
-                                src= "https://tr.pngtree.com/freebackground/avatar-of-a-man-wearing-sunglasses_2640556.html"
-                                width={100}
+                                src="https://png.pngtree.com/png-clipart/20210523/original/pngtree-colorless-character-avatar-with-glasses-png-image_6317135.jpg"
+                                width={125}
                                 className="rounded-circle"
                                 alt="a"
                             />
@@ -20,25 +20,18 @@ const About = () => {
                             </span>
                             <h5 className="mt-2 mb-0">Kazim Akyol</h5>
                             <span>Fullstack Developer</span>
-                            <div className="px-4 mt-1">
+                            <div className="px-5 mt-2">
                                 <p className="fonts">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                                    voluptatem dolore sint quo assumenda eum voluptate aut, sequi
-                                    rem cumque facilis asperiores possimus porro, facere eveniet!
-                                    Tempora non cupiditate in quis adipisci. Distinctio, deleniti
-                                    dolores?
+                                    I am currently training as a full-time Full-Stack Web Developer. My goal is to develop myself in this field in the best way possible and work on current projects. I am passionate about coding and always
+                                    eager to leran new technologies. I believe in the power of
+                                    collaboration and teamwork, and I am excited to contribute to
+                                    innovative projects that make a difference. I am committed to
+                                    continously improving my skills and staying up-to-date with the
+                                    latest industry trends. Let's connect and explore new opprtunities
+                                    together!
                                 </p>
                             </div>
                             <ul className="social-list">
-                                <li>
-                                    <i className="fa-brands fa-facebook" />
-                                </li>
-                                <li>
-                                    <i className="fa-brands fa-dribbble" />
-                                </li>
-                                <li>
-                                    <i className="fa-brands fa-instagram" />
-                                </li>
                                 <li>
                                     <i className="fa-brands fa-linkedin" />
                                 </li>
