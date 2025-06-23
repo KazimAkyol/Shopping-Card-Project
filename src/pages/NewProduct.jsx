@@ -12,7 +12,7 @@ const NewProduct = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        await axios.post("https://674dbe56635bad45618c9df8.mockapi.io/:products", formData);
+        await axios.post("https://63f4e5583f99f5855db9e941.mockapi.io/products", formData);
 
         setFormData({
             name: "",
@@ -20,7 +20,7 @@ const NewProduct = () => {
             amount: "",
             image: "",
         });
-        // burada save den sonra ürünleri görmek istersek, navigate ile /products yolunun olduğu ProductList sayfasına gidebiliriz
+        // burada save'den sonra ürünleri görmek istersek, navigate ile /products yolunun olduğu ProductList sayfasına gidebiliriz.
     }
 
     return (
