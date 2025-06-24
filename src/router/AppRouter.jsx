@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Main from '../pages/Main'

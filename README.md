@@ -14,7 +14,7 @@ Project aims to create a Shopping Cart App.
 ## Project Skeleton
 
 ```
-Shopping Cart (folder)
+Shopping Card (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
@@ -26,7 +26,6 @@ SOLUTION
 │   │    ├── CardTotal.jsx
 │   │    ├── Navbar.jsx
 │   │    ├── ProductCard.jsx
-│   │    └── ProductForm.jsx
 │   ├── index.css
 │   ├── index.js
 │   └── pages
@@ -34,15 +33,10 @@ SOLUTION
 │        ├── Main.jsx
 │        ├── NewProduct.jsx
 │        ├── ProductList.jsx
-│        └── UpdateProduct.jsx
 ├── package.json
 └── yarn.lock
 
 ```
-
-## Expected Outcome
-
-![Shopping Cart](shopping-cart.gif)
 
 ## Objective
 
