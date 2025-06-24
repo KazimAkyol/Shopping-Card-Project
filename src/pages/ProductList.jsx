@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-// import CardTotal from "../components/CardTotal";
 import axios from "axios";
 import ProductCard from "../components/ProductCard";
+import CardTotal from "../components/CardTotal";
 
 const ProductList = () => {
     const BASE_URL = "https://63f4e5583f99f5855db9e941.mockapi.io/products";
@@ -37,7 +37,7 @@ const ProductList = () => {
                                 ))}
                             </article>
                             <article className="col-md-4 m-3">
-                                {/* <CardTotal /> */}
+                                {<CardTotal produkte={produkte} />}
                             </article>
                         </>
                     )

@@ -8,11 +8,11 @@ const Main = () => {
     return (
         <main className='main'>
             <div>
-                <h1>Welcome to Shopping Card Application</h1>
+                <h1 className='text-light'>Welcome to Shopping Card Application</h1>
                 <div className='main-buttons'>
                     <button
                         onClick={() => navigate('/new-product')}
-                        className='btn btn-outline-primary px-3'>
+                        className='btn btn-outline-primary px-4'>
                         Add New Product
                     </button>
                     <button

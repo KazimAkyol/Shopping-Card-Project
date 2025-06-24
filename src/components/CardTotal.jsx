@@ -13,26 +13,31 @@ const CardTotal = ({ produkte }) => {
                 <tr className="text-end">
                     <th className="text-start">Subtotal</th>
                     <td>
-                        $<span className="subtotal">{aratoplam} </span>
+                        $<span className="subtotal">{aratoplam}</span>
                     </td>
                 </tr>
                 <tr className="text-end">
                     <th className="text-start">Tax(18%)</th>
                     <td>
-                        $<span className="tax">{aratoplam * taxRate} </span>
+                        $<span className="tax">
+                            {aratoplam * taxRate}
+                        </span>
                     </td>
                 </tr>
                 <tr className="text-end">
                     <th className="text-start">Shipping</th>
                     <td>
-                        $<span className="shipping">{shipping}</span>
+                        $<span className="shipping">
+                            {shipping}
+                        </span>
                     </td>
                 </tr>
                 <tr className="text-end">
                     <th className="text-start">Total</th>
                     <td>
                         $
-                        <span className="total">{aratoplam + aratoplam * taxRate + shipping}
+                        <span className="total">
+                            {aratoplam + aratoplam * taxRate + shipping}
                         </span>
                     </td>
                 </tr>
