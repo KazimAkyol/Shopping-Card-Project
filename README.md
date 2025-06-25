@@ -1,11 +1,10 @@
-<p>Kazim Akyol<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+<p>Kazim Akyol</p>
 
 # Shopping Cart
 
 ## Description
 
-Project aims to create a Shopping Cart App.
+Project aims to create a Shopping Card App.
 
 ## Problem Statement
 
@@ -16,7 +15,7 @@ Project aims to create a Shopping Cart App.
 ```
 Shopping Card (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----README.md
 SOLUTION
 ├── public
 │     └── index.html
@@ -88,6 +87,3 @@ Build a Shopping Cart App using ReactJS.
 <a href="https://www.youtube.com/watch?v=i_Gvlp83GMk" target="_blank">
  Watch the video
 </a>
-
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
